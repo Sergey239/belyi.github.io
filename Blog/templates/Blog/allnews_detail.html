@@ -1,0 +1,39 @@
+{% extends 'blog/main.html' %}
+{% block main_section %}
+        <div class="alert alert-light">
+        <a href="{% url 'Blog-home' %}">Вернуться назад</a>
+            <h1>{{ object.title }}</h1>
+            <p>{{ object.text }}</p>
+            <div class="row">
+                <div>
+                {% if object.author.profile.img %}
+                    <img src="{{ object.author.profile.img.url }}" alt="{{ object.author }}" class="user_image">
+                {% else %}
+                    <img src="/pictures/default.jpg" alt="{{ object.author }}" class="user_image">
+                {% endif %}
+                </div>
+                <div class="mt-2">
+                <span class='text-muted'><b>Дата:</b>{{ object.date|date:"d E Y, время: H:i:s" }}</span>
+                <p><b>Author:</b> <mark>{{object.author}}</mark></p>
+                </div>
+            </div>
+            {% if object.author == user %}
+                <hr>
+                <a href="{% url 'news-update' object.id %}" class="btn btn-info">Обновить статью</a>
+                <a href="{% url 'news-delete' object.id %}" class="btn btn-danger">Удалить статью</a>
+            {% endif %}
+        </div>  
+{% endblock main_section %}
+
+{% block aside_news_section %}
+<h3><b>Топ 5 фильмов и сериалов для программистов</b></h3>
+                <img src="http://content.rankinghero.com/walls/9535/3482416_350.jpg" class="img-thumbnail mb-1">
+                <p>Представляем вам подборку из 5 фильмов и сериалов для программистов</p>
+                <a href="https://habr.com/ru/company/lanit/blog/434146/" target="_blank">
+                    <button class="btn btn-warning">Посмотреть</button>
+                </a>
+{% endblock aside_news_section%}
+
+
+
+

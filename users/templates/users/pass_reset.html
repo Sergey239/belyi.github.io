@@ -1,0 +1,22 @@
+{% extends 'blog/main.html' %}
+{% load crispy_forms_tags %}
+{% block main_section %}
+    <div class="form-section">
+    <h2>Восстановление пароля</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form|crispy }}
+        <button type="submit" class="btn btn-danger">Запросить новый пароль</button>
+    </form>
+    
+    </div>
+{% endblock main_section %}
+
+{% block aside_news_section %}
+<h3><b>Бесполезный Metacritic — в 2019 году разница оценок критиков и пользователей достигла рекордного уровня</b></h3>
+                <img src="https://cdn.shazoo.ru/408377_66dYiHX3dO_art.jpg" class="img-thumbnail mb-1">
+                <p>Недавно блоггер Шеймус Янг решил задался вопросом — а каковы тенденции оценок на Metacritic среди видеоигр? Он работает программистом, так что написал программу для сбора базы данных оценок всех PC-игр Metacritic начиная с 1995 года.</p>
+                <a href="https://shazoo.ru/2020/02/12/90575/bespoleznyj-metacritic-v-2019-godu-raznica-ocenok-kritikov-i-polzovatelej-dostigla-rekordnogo-urovnya" target="_blank">
+                    <button class="btn btn-warning">Посмотреть</button>
+                </a>
+{% endblock aside_news_section %}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5a5e49ad-5c80-48c4-867c-2a36cd052473" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../FirstApp\exportToHTML" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="FirstApp" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XU1f9AT2MaVv9BXnoARLnJpAm3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a5e49ad-5c80-48c4-867c-2a36cd052473" name="Default Changelist" comment="" />
+      <created>1581085959810</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581085959810</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="101" y="183" key="#Inspections" timestamp="1581086089535">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="101" y="183" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1581086089535" />
+    <state x="0" y="179" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581086051309">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="179" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581086051309" />
+    <state x="224" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581187642627">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="224" y="327" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581187642627" />
+    <state x="261" y="279" key="FileChooserDialogImpl" timestamp="1581087923295">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="261" y="279" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581087923295" />
+    <state x="0" y="99" key="SettingsEditor" timestamp="1581190589801">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="99" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581190589801" />
+    <state x="185" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1581187168160">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="185" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581187168160" />
+  </component>
+</project>

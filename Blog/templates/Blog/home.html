@@ -1,0 +1,36 @@
+{% extends 'blog/main.html' %}
+{% block main_section %}
+    {% for post in news %}
+        <div class="alert alert-light">
+            <h1>{{ post.title }}</h1>
+            <p>{{ post.text }}</p>
+            <div class="row">
+                <div>
+                    {% if post.author.profile.img %}
+                        <img src="{{ post.author.profile.img.url }}" alt="{{ post.author }}" class="user_image">
+                    {% else %}
+                        <img src="/pictures/default.jpg" alt="{{ post.author }}" class="user_image">
+                    {% endif %}
+                </div>
+                <div class="mt-2">
+                    <span class='text-muted'><b>Дата:</b>{{ post.date|date:"d E Y, время: H:i:s" }}</span>
+                    <p><b>Author:</b> <mark>{{post.author}}</mark></p>
+                </div>
+            </div>
+            <a href="{% url 'news-detail' post.id %}" class="btn btn-outline-warning">Читать далее</a>
+        </div>
+    {% endfor %}
+{% endblock main_section %}
+
+{% block aside_news_section %}
+<h3><b>Топ 5 фильмов и сериалов для программистов</b></h3>
+                <img src="http://content.rankinghero.com/walls/9535/3482416_350.jpg" class="img-thumbnail mb-1">
+                <p>Представляем вам подборку из 5 фильмов и сериалов для программистов</p>
+                <a href="https://habr.com/ru/company/lanit/blog/434146/" target="_blank">
+                    <button class="btn btn-warning">Посмотреть</button>
+                </a>
+{% endblock aside_news_section%}
+
+
+
+
